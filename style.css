@@ -105,37 +105,44 @@ body {
   background: #fff;
   border: 2px solid transparent;
   cursor: default;
+  padding: 2rem 1.5rem !important;
   transition: transform 0.35s cubic-bezier(.4,2,.6,1), box-shadow 0.35s, border-color 0.35s, background 0.35s;
 }
 .skill-card:hover {
-  transform: translateY(-10px) scale(1.04);
-  background: linear-gradient(145deg, #fff 60%, var(--accent-soft));
-  border-color: var(--accent);
-  box-shadow: 0 0 0 4px rgba(108,99,255,0.1), 0 16px 40px rgba(108,99,255,0.2) !important;
+  transform: translateY(-12px) scale(1.06);
+  background: linear-gradient(145deg, #fff 50%, #e8edf7);
+  border-color: #0d1b4b;
+  box-shadow: 0 0 0 4px rgba(13,27,75,0.1), 0 20px 48px rgba(13,27,75,0.28) !important;
 }
 
-/* Icon wrapper with per-card glow color */
+/* Icon wrapper */
 .skill-icon-wrap {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 72px; height: 72px;
+  width: 88px; height: 88px;
   border-radius: 50%;
-  background: #f8f8ff;
+  background: #f0f3fa;
   margin: 0 auto;
   transition: box-shadow 0.35s, background 0.35s, transform 0.35s;
 }
 .skill-card:hover .skill-icon-wrap {
-  background: color-mix(in srgb, var(--glow) 12%, white);
-  box-shadow: 0 0 18px 4px color-mix(in srgb, var(--glow) 40%, transparent);
-  transform: rotate(-6deg) scale(1.15);
+  background: #dce3f5;
+  box-shadow: 0 0 22px 6px rgba(13,27,75,0.25);
+  transform: rotate(-6deg) scale(1.18);
 }
 .skill-icon-wrap i {
-  font-size: 2.4rem;
+  font-size: 3rem;
   transition: transform 0.35s;
 }
 .skill-card:hover .skill-icon-wrap i {
   transform: scale(1.1);
+}
+.skill-card h6 {
+  font-size: 1rem;
+}
+.skill-card small {
+  font-size: 0.85rem;
 }
 
 /* ===== Project Cards ===== */
