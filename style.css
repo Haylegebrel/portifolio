@@ -102,7 +102,7 @@ body {
 
 /* ===== Skill Cards ===== */
 .skill-card {
-  background: #fff;
+  background: #dbeafe;
   border: 2px solid transparent;
   cursor: default;
   padding: 2rem 1.5rem !important;
@@ -110,7 +110,7 @@ body {
 }
 .skill-card:hover {
   transform: translateY(-12px) scale(1.06);
-  background: linear-gradient(145deg, #fff 50%, #e8edf7);
+  background: linear-gradient(145deg, #dbeafe 50%, #bfdbfe);
   border-color: #0d1b4b;
   box-shadow: 0 0 0 4px rgba(13,27,75,0.1), 0 20px 48px rgba(13,27,75,0.28) !important;
 }
@@ -122,12 +122,12 @@ body {
   justify-content: center;
   width: 88px; height: 88px;
   border-radius: 50%;
-  background: #f0f3fa;
+  background: #eff6ff;
   margin: 0 auto;
   transition: box-shadow 0.35s, background 0.35s, transform 0.35s;
 }
 .skill-card:hover .skill-icon-wrap {
-  background: #dce3f5;
+  background: #bfdbfe;
   box-shadow: 0 0 22px 6px rgba(13,27,75,0.25);
   transform: rotate(-6deg) scale(1.18);
 }
