@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbar">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto gap-2">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section id="home" class="hero d-flex align-items-center">
+    <div class="container text-center text-white">
+      <img src="photo_2366706192357632167_c.jpg" alt="Profile Photo" class="profile-img mb-4"/>
+      <h1 class="display-4 fw-bold">Hi, I'm <span class="text-accent">Your Name</span></h1>
+      <p class="lead mb-4">Full Stack Developer &amp; UI/UX Designer</p>
+      <a href="#projects" class="btn btn-accent btn-lg me-2">View My Work</a>
+      <a href="#contact" class="btn btn-outline-light btn-lg">Contact Me</a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <h2 class="section-title text-center mb-5">About Me</h2>
+      <div class="row align-items-center g-4">
+        <div class="col-md-5 text-center">
+          <img src="photo_2366706192357632167_c.jpg" alt="About Photo" class="about-img img-fluid rounded-4 shadow"/>
+        </div>
+        <div class="col-md-7">
+          <h4 class="fw-bold mb-3">Who am I?</h4>
+          <p class="text-muted">I'm a passionate developer with a love for building clean, user-friendly web applications. I enjoy turning complex problems into simple, beautiful, and intuitive designs.</p>
+          <p class="text-muted">When I'm not coding, you'll find me exploring new technologies, contributing to open source, or enjoying a good book.</p>
+          <div class="row mt-4">
+            <div class="col-6">
+              <p><i class="bi bi-person-fill text-accent me-2"></i><strong>Name:</strong> Your Name</p>
+              <p><i class="bi bi-envelope-fill text-accent me-2"></i><strong>Email:</strong> you@email.com</p>
+            </div>
+            <div class="col-6">
+              <p><i class="bi bi-geo-alt-fill text-accent me-2"></i><strong>Location:</strong> Your City</p>
+              <p><i class="bi bi-briefcase-fill text-accent me-2"></i><strong>Status:</strong> Available</p>
+            </div>
+          </div>
+          <a href="#" class="btn btn-accent mt-2">Download CV <i class="bi bi-download ms-1"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="section-title text-center mb-5">My Skills</h2>
+      <div class="row g-4 justify-content-center">
+        <div class="col-6 col-md-3">
+          <div class="skill-card text-center p-4 rounded-4 shadow-sm h-100">
+            <i class="bi bi-filetype-html fs-1 text-accent"></i>
+            <h6 class="mt-3 fw-bold">HTML5</h6>
+            <div class="progress mt-2" style="height:6px">
+              <div class="progress-bar bg-accent" style="width:95%"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="skill-card text-center p-4 rounded-4 shadow-sm h-100">
+            <i class="bi bi-filetype-css fs-1 text-accent"></i>
+            <h6 class="mt-3 fw-bold">CSS3</h6>
+            <div class="progress mt-2" style="height:6px">
+              <div class="progress-bar bg-accent" style="width:90%"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="skill-card text-center p-4 rounded-4 shadow-sm h-100">
+            <i class="bi bi-filetype-js fs-1 text-accent"></i>
+            <h6 class="mt-3 fw-bold">JavaScript</h6>
+            <div class="progress mt-2" style="height:6px">
+              <div class="progress-bar bg-accent" style="width:85%"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="skill-card text-center p-4 rounded-4 shadow-sm h-100">
+            <i class="bi bi-bootstrap-fill fs-1 text-accent"></i>
+            <h6 class="mt-3 fw-bold">Bootstrap</h6>
+            <div class="progress mt-2" style="height:6px">
+              <div class="progress-bar bg-accent" style="width:92%"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="skill-card text-center p-4 rounded-4 shadow-sm h-100">
+            <i class="bi bi-filetype-py fs-1 text-accent"></i>
+            <h6 class="mt-3 fw-bold">Python</h6>
+            <div class="progress mt-2" style="height:6px">
+              <div class="progress-bar bg-accent" style="width:80%"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="skill-card text-center p-4 rounded-4 shadow-sm h-100">
+            <i class="bi bi-database-fill fs-1 text-accent"></i>
+            <h6 class="mt-3 fw-bold">SQL</h6>
+            <div class="progress mt-2" style="height:6px">
+              <div class="progress-bar bg-accent" style="width:78%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="py-5">
+    <div class="container">
+      <h2 class="section-title text-center mb-5">My Projects</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="project-card card border-0 shadow rounded-4 h-100">
+            <div class="card-img-top project-thumb d-flex align-items-center justify-content-center rounded-top-4">
+              <i class="bi bi-cart4 fs-1 text-white"></i>
+            </div>
+            <div class="card-body">
+              <h5 class="fw-bold">E-Commerce App</h5>
+              <p class="text-muted small">A fully responsive online store with cart, checkout, and payment integration.</p>
+              <div class="d-flex gap-2 flex-wrap">
+                <span class="badge bg-accent-soft text-accent">HTML</span>
+                <span class="badge bg-accent-soft text-accent">CSS</span>
+                <span class="badge bg-accent-soft text-accent">JavaScript</span>
+              </div>
+            </div>
+            <div class="card-footer bg-transparent border-0 pb-3">
+              <a href="#" class="btn btn-sm btn-accent me-2"><i class="bi bi-eye me-1"></i>Live</a>
+              <a href="#" class="btn btn-sm btn-outline-secondary"><i class="bi bi-github me-1"></i>Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="project-card card border-0 shadow rounded-4 h-100">
+            <div class="card-img-top project-thumb project-thumb-2 d-flex align-items-center justify-content-center rounded-top-4">
+              <i class="bi bi-chat-dots-fill fs-1 text-white"></i>
+            </div>
+            <div class="card-body">
+              <h5 class="fw-bold">Chat Application</h5>
+              <p class="text-muted small">Real-time messaging app with rooms, notifications, and user authentication.</p>
+              <div class="d-flex gap-2 flex-wrap">
+                <span class="badge bg-accent-soft text-accent">Node.js</span>
+                <span class="badge bg-accent-soft text-accent">Socket.io</span>
+                <span class="badge bg-accent-soft text-accent">Bootstrap</span>
+              </div>
+            </div>
+            <div class="card-footer bg-transparent border-0 pb-3">
+              <a href="#" class="btn btn-sm btn-accent me-2"><i class="bi bi-eye me-1"></i>Live</a>
+              <a href="#" class="btn btn-sm btn-outline-secondary"><i class="bi bi-github me-1"></i>Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="project-card card border-0 shadow rounded-4 h-100">
+            <div class="card-img-top project-thumb project-thumb-3 d-flex align-items-center justify-content-center rounded-top-4">
+              <i class="bi bi-bar-chart-fill fs-1 text-white"></i>
+            </div>
+            <div class="card-body">
+              <h5 class="fw-bold">Dashboard UI</h5>
+              <p class="text-muted small">Admin dashboard with charts, analytics, and dark/light mode toggle.</p>
+              <div class="d-flex gap-2 flex-wrap">
+                <span class="badge bg-accent-soft text-accent">Bootstrap</span>
+                <span class="badge bg-accent-soft text-accent">Chart.js</span>
+                <span class="badge bg-accent-soft text-accent">CSS</span>
+              </div>
+            </div>
+            <div class="card-footer bg-transparent border-0 pb-3">
+              <a href="#" class="btn btn-sm btn-accent me-2"><i class="bi bi-eye me-1"></i>Live</a>
+              <a href="#" class="btn btn-sm btn-outline-secondary"><i class="bi bi-github me-1"></i>Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="section-title text-center mb-5">Get In Touch</h2>
+      <div class="row g-4 justify-content-center">
+        <div class="col-md-5">
+          <div class="p-4 rounded-4 shadow-sm bg-white h-100">
+            <h5 class="fw-bold mb-4">Contact Info</h5>
+            <p><i class="bi bi-envelope-fill text-accent me-3"></i>you@email.com</p>
+            <p><i class="bi bi-telephone-fill text-accent me-3"></i>+1 234 567 890</p>
+            <p><i class="bi bi-geo-alt-fill text-accent me-3"></i>Your City, Country</p>
+            <hr/>
+            <h6 class="fw-bold mb-3">Follow Me</h6>
+            <div class="d-flex gap-3">
+              <a href="#" class="social-icon"><i class="bi bi-github fs-4"></i></a>
+              <a href="#" class="social-icon"><i class="bi bi-linkedin fs-4"></i></a>
+              <a href="#" class="social-icon"><i class="bi bi-twitter-x fs-4"></i></a>
+              <a href="#" class="social-icon"><i class="bi bi-instagram fs-4"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-7">
+          <div class="p-4 rounded-4 shadow-sm bg-white">
+            <h5 class="fw-bold mb-4">Send a Message</h5>
+            <form>
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <input type="text" class="form-control" placeholder="Your Name" required/>
+                </div>
+                <div class="col-md-6">
+                  <input type="email" class="form-control" placeholder="Your Email" required/>
+                </div>
+                <div class="col-12">
+                  <input type="text" class="form-control" placeholder="Subject"/>
+                </div>
+                <div class="col-12">
+                  <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-accent w-100">Send Message <i class="bi bi-send ms-1"></i></button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-4 text-center text-white footer-bg">
+    <p class="mb-0">&copy; 2026 Your Name. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
